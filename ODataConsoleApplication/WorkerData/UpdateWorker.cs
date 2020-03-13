@@ -23,8 +23,8 @@ namespace ODataConsoleApplication.WorkerData
             if (choice == "3")
             {
                 _persNum = "4097";
-                _email = "email345";
-                _phoneNum = "345345";
+                _email = "email777";
+                _phoneNum = "77777";
             }
             else if (choice == "4")
             {
@@ -75,7 +75,7 @@ namespace ODataConsoleApplication.WorkerData
 
                             if (shouldUpdate)
                             {
-                                Console.WriteLine($"Updating.... contract with Personnel Number {_persNum}");
+                                Console.WriteLine($"Updating.... worker with Personnel Number {_persNum}");
                                 _contextUpd.UpdateObject(wrk);
                                 Console.WriteLine($"IN MEMORY CHANGED EMPLOYMENT: {JsonConvert.SerializeObject(wrk)}");
                                 LogHelper.WriteDevLog($"IN MEMORY CHANGED EMPLOYMENT: {JsonConvert.SerializeObject(wrk)}");

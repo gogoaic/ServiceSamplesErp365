@@ -18,8 +18,8 @@ namespace ODataConsoleApplication.ContractData
 
             if (choice == "1")
             {
-                _persNum = "4097";
-                _endDate = new DateTime(2019, 12, 11);
+                _persNum = "1889";
+                _endDate = new DateTime(2019, 12, 16);
             }
             else if (choice == "2")
             {

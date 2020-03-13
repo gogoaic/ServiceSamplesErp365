@@ -15,7 +15,7 @@ namespace ODataConsoleApplication
 
         static void Main(string[] args)
         {
-            Console.WriteLine("1. CONTRACT with input data: 4097, new DateTime(2019, 12, 11)");
+            Console.WriteLine("1. CONTRACT with input data: 4097, new DateTime(2019, 12, 12)");
             Console.WriteLine("2. CONTRACT with new input data");
             Console.WriteLine();
             Console.WriteLine("3. WORKER with input data: 4097, ...");
